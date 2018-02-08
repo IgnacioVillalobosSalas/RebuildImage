@@ -3,10 +3,10 @@
 public class exe {
 
 	public static void main(String args[]) {
-		
-		String arg="C:\\Users\\nacho\\Desktop\\Master\\Algoritmos evolutivos\\Segundo trabajo\\imagen1.txt";
+		//You have to give the path to the first image
+		String arg=args[0];
 		int MAX_ISTEPTS = 1000; 	//numero maximo de iteraciones
-		int poblen = 256 ; 			// tamaño poblacion
+		int poblen = 256 ; 			// tamaÃ±o poblacion
 		int nalleles=256; 			// numero de alleles por individuo
 		
 		
